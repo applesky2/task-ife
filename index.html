@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+   ul,li{
+       list-style-type: none;
+   }
+   body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+    .container{
+        width: 90%;
+        min-width: 860px;
+        height: 540px;
+        margin: 20px auto;
+        background: #eee;
+        border: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+    }
+   .container >li{
+        /* width:20%; */
+        /* height: 100%; */
+        border: 1px solid black;
+        margin: 20px 20px 20px 0;
+    }
+    .container .left{
+        width: 200px;
+        height: 120px;
+        margin-left: 20px;
+        box-sizing: border-box;
+
+    }
+    .left div{
+        width: 53px;
+        height: 80px;
+        margin: 20px 0;
+        float: left;
+        box-sizing: border-box;
+    }
+    .left div:nth-of-type(1){
+        width: 80px;
+        height: 80px;
+        background: lightcoral;
+        border: 1px solid black;
+        margin: 20px;
+    }
+   .middle{
+       width: 60%;
+       min-width: 465px;
+       /* flex: 1; */
+       height: 455px;
+       padding: 15px;
+       background: lightblue;
+       text-indent:2em;
+       
+   }
+   .right{
+        width: 120px;
+        height: 90%;
+    }
+    .right li{
+        width: 80px;
+        height: 80px;
+        background: gold;
+        margin: 13px auto;
+    }
+    </style>
+</head>
+<body>
+    <ul class="container">
+        <li class="left">
+            <div></div>
+            <div>Hello thanks</div>
+        </li>
+        <li class="middle">
+            的撒谎萨科技吃啊按时撒是是的方式方法发顺丰司机师傅是双卡发发发发发发傻护理费 啊啊啦发货费啦发发家史发
+        </li>
+        <li class="right">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
